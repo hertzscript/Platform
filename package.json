@@ -1,0 +1,24 @@
+{
+  "name": "hertzscript-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "node-gyp rebuild --release -j 4",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floofies/hertzscript-platform.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floofies/hertzscript-platform/issues"
+  },
+  "homepage": "https://github.com/Floofies/hertzscript-platform#readme",
+  "dependencies": {
+    "node-addon-api": "^3.0.2"
+  }
+}
