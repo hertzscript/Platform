@@ -14,6 +14,7 @@ class ThreadId : public Napi::ObjectWrap<ThreadId> {
 
   private:
     Napi::Value Equals(const Napi::CallbackInfo& info);
+    Napi::Value Serialize(const Napi::CallbackInfo& info);
 
     std::thread::id thread_id;
 };
