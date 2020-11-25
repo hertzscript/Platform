@@ -66,7 +66,7 @@
                 } ],
 			],
 			'sources': [
-				'src/thread.cc',
+				'src/platform/thread.cc',
 				'src/platform.cc'
 			],
 		},
